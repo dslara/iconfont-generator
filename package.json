@@ -1,0 +1,29 @@
+{
+  "name": "iconfont-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "babel-node ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dslara/iconfont-generator.git"
+  },
+  "author": "Daniel Lara",
+  "license": "MIT",
+  "homepage": "https://github.com/dslara/iconfont-generator#readme",
+  "dependencies": {
+    "rimraf": "^2.6.2",
+    "svg2ttf": "^4.1.0",
+    "svgo": "^1.0.5",
+    "webfonts-generator": "^0.4.0"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.0.0-beta.55",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  }
+}
